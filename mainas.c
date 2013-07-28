@@ -37,16 +37,15 @@ void DFSearch(int u) {
 
                     push(u,v);
 					
-                        if (DFNum[v] < LowPt[u]) {
-                            LowPt[u] = DFNum[v];
-                        }
+                    if (DFNum[v] < LowPt[u]) {
+                        LowPt[u] = DFNum[v];
+                    }
                 }
             }
-        }
-		
+        }	
     }   
 }
-	
+                    	
 int
 main (void)
 {
